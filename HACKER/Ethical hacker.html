@@ -41,6 +41,42 @@
       <p class="tab-link active link"onclick="opentab('Experience')">Experience</p>
       <p class="tab-link active link"onclick="opentab('Education')">Education</p>
     </div>
+    <div class="tab-content" id="Skills">
+      <ul>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+      </ul>
+    </div>
+    <div class="tab-content" id="Experience">
+      <ul>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+        <li><span></span><br></li>
+      </ul>
+      </div>
+      <div class="tab-content" id="Education">
+        <ul>
+          <li><span></span><br></li>
+          <li><span></span><br></li>
+          <li><span></span><br></li>
+          <li><span></span><br></li>
+        </ul>
+      </div>
+      <!-- ---------------services--------------- -->
+      <script>
+        var tablink=document.getElementsByClassName("tab-link");
+        var tabcontent=document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+          for(tablink of tablink){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active");
+          document.getElementsByClassId("tabname").classList.add("active-tab");
+        }
+      </script>
   </div>
 </body>
 </html>
