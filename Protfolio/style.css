@@ -79,3 +79,10 @@ nav ul li a:hover::after{
  .about-col-2{
     flex-basis: 60%;
  }
+ .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+ }
+ .tab-link{
+    
+ }
