@@ -11,7 +11,7 @@
   <div id="header">
     <div class="container">
       <nav>
-        <h1 class="logo"><span>N</span>AGUL</h1>
+        <h1 class="logo"><span>N</span>AGUL.</h1>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -26,24 +26,72 @@
       </div>
     </div>
   </div>
-  <!-- ----------------about--------------- -->
+  <!-- ----------------about---------------- -->
   <div id="about">
     <div class="container">
       <div class="row">
         <div class="about-col-1">
-      <img src="image/iStock-1152537185.webp">
+      <img src="image/iStock-1152537185.webp" width="355px" height="455px">
     </div>
     <div class="about-col-2">
       <h1 class="sub-title">About Me</h1>
-      <p></p>
+      <p>Hi i'm Nagul tell me about my self hobbies is hacking practice workout and pentration work this is part of my life </p>
       <div class="tab-titles">
         <p class="tab-link">Skills</p>
         <p class="tab-link">Experience</p>
         <p class="tab-link">Education</p>
       </div>
+      <div class="tab-contents active-link" id="Skills">
+        <ul>
+          <li><span>ETHICAL HACKING</span><br>Security Another System</li>
+          <li><span>WEB DEVELOPMENT</span><br>Website Designation</li>
+          <li><span>CYBER SECURITY</span><br>Pentration Testing Vulnerability</li>
+        </ul>
+      </div>
+      <div class="tab-contents active-link" id="Experience">
+        <ul>
+          <li><span>2021-current</span><br>Security Another System</li>
+          <li><span>2019-2021</span><br>Website Designation</li>
+          <li><span>2017-2019</span><br>Pentration Testing Vulnerability</li>
+          <li><span>2017-2019</span><br>Internship at ekart ecommerce</li>
+        </ul>
+      </div>
+      <div class="tab-contents active-link" id="Education">
+        <ul>
+          <li><span>2016</span><br>WEb DEsigning Training</li>
+          <li><span>2016</span><br>Bug Bounty</li>
+          <li><span>2016</span><br>Penrations Testing</li>
+        </ul>
+      </div>
   </div>
  </div>
     </div>
   </div>
+  <!-- --------------services---------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>WEB DEDIGN</h2>
+          <p>Website style Devolopment</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var tablink = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+      }
+      for(tabcontent of tabcontents){
+        tabcontents.getElementsByClassName.remove("active-tab");
+      }
+      event.currentTarget.classList.add(active-link);
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
 </body>
 </html>
